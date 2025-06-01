@@ -67,7 +67,7 @@ class CentralWidget(QChartView):
         axis_tage = QValueAxis()  # Zweite Y-Achse für numerische Werte
         axis_tage.setTitleText("Tage")  # Setzt den Titel der Achse
         axis_tage.setRange(0, 30)  # Setzt den Wertebereich der Achse
-        axis_tage.setTickCount(11)  # Setzt die Anzahl der Ticks
+        axis_tage.setTickCount(12)  # Setzt die Anzahl der Ticks
 
         # Erstellen des Charts
         q_chart = QChart()  # Erstellt das Hauptdiagramm
